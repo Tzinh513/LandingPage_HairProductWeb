@@ -1,0 +1,6 @@
+.tabShow {
+	display: none;
+}
+.tabShow.active {
+	display: block;
+}

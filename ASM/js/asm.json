@@ -1,0 +1,218 @@
+{
+    "thuonghieu": [
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_12_2x_3c760404-2616-421a-945c-773d98b2a135_400x.png?v=1667405379"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_13_2x_e91832a9-2713-4691-bb0a-21e8ba2c9ead_400x.png?v=1667405379"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_17_2x_35b43a7b-4ccc-4fd3-bd1c-1fc2cb07fbf0_400x.png?v=1667405371"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_15_2x_ea3d0af4-1fa6-4758-9ce2-be8e35351a26_400x.png?v=1667405379"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_16_2x_767b816b-44ee-4e21-add4-842221c156f3_400x.png?v=1667405379"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_14_2x_72b6b964-d509-42b0-8113-0ed79c889b28_400x.png?v=1667405379"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/byrdie_2x_b5b2ec48-77a6-4d94-9ed0-86af2e059f48_400x.png?v=1671134897"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/grooming_2x_3bbd9937-b75d-4da5-8c2e-a0a9bc775b3b_400x.png?v=1671132900"
+        }
+    ],
+    "SPYeuThich": [
+        {
+            "tensp": "Gói SEEN Essentinal, không mùi",
+            "hinh": "images/sp1.jpg",
+            "sao1": "star2.svg",
+            "sao2": "star2.svg",
+            "sao3": "star2.svg",
+            "sao4": "star2.svg",
+            "sao5": "star2.svg",
+            "danhgia": "370 đánh giá",
+            "giasp": "1.200.000 đ"
+        },
+        {
+            "tensp": "Gói thiết yếu SEEN ss1",
+            "hinh": "images/sp4.png",
+            "sao1": "star2.svg",
+            "sao2": "star2.svg",
+            "sao3": "star2.svg",
+            "sao4": "star2.svg",
+            "sao5": "star1.svg",
+            "danhgia": "181 đánh giá",
+            "giasp": "1.050.000 đ"
+        },
+        {
+            "tensp": "SEEN Magic Serum, không mùi",
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/products/MagicSerum_Box_29656b7a-cd55-4d22-94ce-4aa0450e4830.jpg?v=1643169659&width=640",
+            "sao1": "star2.svg",
+            "sao2": "star2.svg",
+            "sao3": "star2.svg",
+            "sao4": "star2.svg",
+            "sao5": "star1.svg",
+            "danhgia": "190 đánh giá",
+            "giasp": "820.000 đ"
+        }
+    ],
+    "Danhmuckhac": [
+        {
+            "dm": "GIẢI THƯỞNG"
+        },
+        {
+            "dm": "CHO MỌI LOẠI TÓC"
+        },
+        {
+            "dm": "AN TOÀN CHO DA NHẠY CẢM"
+        },
+        {
+            "dm": "BÁC SĨ DA LIỄU THIẾT KẾ"
+        },
+        {
+            "dm": "GIẢI THƯỞNG"
+        },
+        {
+            "dm": "CHO MỌI LOẠI TÓC"
+        },
+        {
+            "dm": "AN TOÀN CHO DA NHẠY CẢM"
+        },
+        {
+            "dm": "BÁC SĨ DA LIỄU THIẾT KẾ"
+        },
+        {
+            "dm": "GIẢI THƯỞNG"
+        },
+        {
+            "dm": "CHO MỌI LOẠI TÓC"
+        },
+        {
+            "dm": "AN TOÀN CHO DA NHẠY CẢM"
+        },
+        {
+            "dm": "BÁC SĨ DA LIỄU THIẾT KẾ"
+        },
+        {
+            "dm": "GIẢI THƯỞNG"
+        },
+        {
+            "dm": "CHO MỌI LOẠI TÓC"
+        },
+        {
+            "dm": "AN TOÀN CHO DA NHẠY CẢM"
+        },
+        {
+            "dm": "BÁC SĨ DA LIỄU THIẾT KẾ"
+        }
+    ],
+    "ChuoiCuaHang": [
+        {
+            "hinh": "ch1.jpg",
+            "tenCH": "nước hoa miễn phí"
+        },
+        {
+            "hinh": "ch2.webp",
+            "tenCH": "sản phẩm kiểu tóc"
+        },
+        {
+            "hinh": "ch3.jpg",
+            "tenCH": "serum kỳ diệu"
+        }
+    ],
+    "sukhacbietcuaSEEN": [
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_129_3x_307b4c3d-b189-4079-88c0-82d9fc702094_180x.png?v=1643236995",
+            "mieuta": "Được thiết kế bởi một bác sĩ da liễu được đào tạo tại Harvard"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_130_3x_da76afdc-448e-4190-bc98-bf76cdc7240e_180x.png?v=1643237011",
+            "mieuta": "Không gây mụn. Không làm tắc nghẽn lỗ chân lông"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_131_3x_fdb891df-d556-4096-a3a2-b08c5d65a3e5_180x.png?v=1643237024",
+            "mieuta": "Không chứa sunfat, silicon, phthalates, parben và thuốc nhuộm"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_132_3x_93cdfa1c-bc6c-462e-b3a5-a9e043fda2b7_180x.png?v=1643237035",
+            "mieuta": "Được chứng minh lâm sàng là không gây kích ứng"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_31_copy_6_3x_37e52d98-2c1d-4af5-b881-881eaabb461c_180x.png?v=1643237056",
+            "mieuta": "Tùy chọn không mùi"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_32_copy_6_3x_6757afd7-7a5c-4823-bd8e-01f2f0078282_180x.png?v=1643237069",
+            "mieuta": "An toàn cho tóc đã qua xử lý màu"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_33_copy_6_3x_619884ee-055c-4183-bda7-a47c63a3f568_100x.png?v=1643237081",
+            "mieuta": "Không chứa gluten"
+        },
+        {
+            "hinh": "https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_34_copy_6_3x_c7a21321-e7de-491d-bd88-4f8f26b4bccd_100x.png?v=1643237096",
+            "mieuta": "Thuần chay và không độc ác (không thử nghiệm trên động vật)"
+        }
+    ],
+    "banner2": [
+        {
+            "tieude": "Tốt hơn cho bạn. Tốt hơn cho cộng đồng của chúng ta.",
+            "docx": "Chúng tôi là một thương hiệu hướng đến sứ mệnh, cam kết giúp bạn cảm thấy được nhìn thấy chính mình (do đó là tên thương hiệu của chúng tôi) và tăng cường tác động tích cực mà chúng tôi có đối với mọi người và cộng đồng.",
+            "hinh": "globe-center.svg"
+        }
+    ],
+    "baivietdanhgia": [
+        {
+            "tieude": "Cuối cùng!!! Ngoc Thanh!!",
+            "danhgia": "Đã hai tháng trôi qua và tôi chi mới gần dùng xong những chai đầu tiên. Tôi nói những chai đầu tiên vì đây sẽ là chai đầu tiên trong số hàng trăm chai mà tôi sẽ mua trong suốt cuộc đời minh! Đây là loại dầu gội và dầu xả tốt nhất mà tôi từng có đã tìm thấy Không có mùi thơm hay không... da nhạy cảm hay không... tóc của tôi chưa bao giờ trông đẹp như thế này với bất kỳ loại dầu gội nào khác. BAO GIỜ. Vì vậy, thực tế là tôi có thể nhận được những kết quả này mà không gặp vấn đề về ngừa da đầu, gàu, mùi hoặc hóa chất gây kích ứng làn da của tôi, thật kỳ diệu!!!... Không cần phải nói tôi là một người cắm trại hạnh phúc! ",
+            "tacgia": "– Ê-li-sa-bét. Khách hàng đã xác minh",
+            "id": "danhgia1"
+        },
+        {
+            "tieude": "Cuối cùng!",
+            "danhgia": "I have been allergic to soap and shampoo all my life. Every time I wash my hair I get hives all over my body. I first tried a sample of Seen products and immediately noticed a difference. No more hives when I wash my hair. I don't get clogged pores on my scalp anymore. My hair is soft and silky. I'm so glad I found Seen! I ordered the full set aft...  ",
+            "tacgia": "– Shannon S. Khách hàng đã xác minh",
+            "id": "danhgia2"
+        },
+        {
+            "tieude": "Sản Phẩm Không Mùi Thơm Tốt Nhất Trên Thị Trường",
+            "danhgia": "Gần đây tôi đã phải đổi sang các sản phẩm không có mùi thơm do dị ứng da. Trước hết, các tùy chọn trên thị trưởng là hạn chế và đắt tiền. Sau khi thử một vài nhãn hiệu khác, Dầu gội và Dầu xả SEEN đã mang lại kết quả tốt nhất. Làm cho tóc của tôi rất mềm trái ngược với các nhãn hiệu khác khiến tóc tôi cảm thấy rất khô.  ",
+            "tacgia": "– Jeanette H. Khách hàng đã xác minh",
+            "id": "danhgia3"
+        }
+    ],
+    "Baiviet": [
+        {
+            "thoigian": "NGÀY 19 THÁNG 1 NĂM 2023",
+            "tieude": "Sản phẩm vượt trội?",
+            "docx": "Mùa hè có nghĩa là ra ngoài trời và tận hưởng thời tiết, nhưng mùa này có thể gây căng thẳng cho tóc vì tiếp xúc nhiều hơn với tia UV, ô nhiễm, nước mặn và clo không có lợi cho tóc.",
+            "hinh": "ch1.jpg",
+            "id": "bv1"
+        },
+        {
+            "thoigian": "NGÀY 15 THÁNG 2 NĂM 2023",
+            "tieude": "Nói “Chúc mừng!” với những ý tưởng cocktail SEEN này",
+            "docx": "Mùa lễ hội sắp đến, hãy cùng nâng ly chúc bạn có mái tóc đẹp và làn da khỏe mạnh! Các sản phẩm của SEEN thậm chí còn ngon hơn khi được sử dụng cùng nhau và chúng tôi đang chia sẻ công thức pha chế 'cocktail' yêu thích của chúng tôi với bạn!",
+            "hinh": "AAA1.png",
+            "id": "bv1"
+        },
+        {
+            "thoigian": "NGÀY 10 THÁNG 2 NĂM 2023",
+            "tieude": "Hướng dẫn của SEEN về một kiểu tóc đẹp như thẩm mỹ viện",
+            "docx": "Hãy sẵn sàng cho một ngày tuyệt vời với mái tóc vì chúng tôi sẽ hướng dẫn bạn từng bước để có một mái tóc bồng bềnh, mềm mại và bồng bềnh tuyệt đẹp tại nhà.",
+            "hinh": "baiviet2.webp",
+            "id": "bv1"
+        },
+        {
+            "thoigian": "NGÀY 20 THÁNG 2 NĂM 2023",
+            "tieude": "Thật sự hiệu quả với tóc xơ rối",
+            "docx": "Mùa hè có nghĩa là ra ngoài trời và tận hưởng thời tiết, nhưng mùa này có thể gây căng thẳng cho tóc vì tiếp xúc nhiều hơn với tia UV, ô nhiễm, nước mặn và clo không có lợi cho tóc.",
+            "hinh": "baiviet1.webp",
+            "id": "baivietmoi"
+        }
+    ]
+}

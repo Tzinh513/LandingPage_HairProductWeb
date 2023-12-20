@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEEN</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script>
+    <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"> </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
+    <link rel="stylesheet" href="css/style_asm.css">
+</head>
+
+<style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+    }
+</style>
+
+<body>
+
+    <header class="fixed-top">
+        <div class="bg-dark">
+            <div class="header1 p-2">
+                <a href="#">Giao hàng miễn phí cho các đơn hàng trong nước Việt Nam $40+</a>
+            </div>
+        </div>
+        <div class="container d-flex ps-0 pe-0 p-3">
+            <div class="col-md-4 col-sm-4 col-3">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Twelfth navbar example">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10"
+                            ng-repeat="x in myData">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" ng-repeat="x in myData" aria-current="page"
+                                        href="#">trang chủ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">tại sao chọn SEEN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">đánh giá</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="logo col-md-4 col-sm-4 col-6">
+                <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/SEENlogo_Horiz_Black_e79ffe09-7a3c-43cd-9d68-29611a88664b_300x.png?v=1655837636"
+                    alt="">
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-3 pe-2">
+                <div class="icons float-end">
+                    <a href="#"><img src="images/shopping-cart.svg" class="me-3" alt=""></a>
+                    <a href="#"><img src="images/user.svg" class="me-3" alt=""></a>
+                    <a href="#"><img src="images/search.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="banner">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/Banner1.jpg" alt="">
+                        <div class="container-lg col-md-12">
+                            <div class="carousel-caption text-start text-banner1 col-md-4 p-3">
+                                <h1>Mới! Serum phục hồi da đầu SEEN</h1>
+                                <p>Phương pháp điều trị nhe nhàng này làm dịu da đầu khô, đồng thời làm giảm sự xuất
+                                    hiện của vảy và kích ứng; hỗ trợ một hệ sinh thái vi sinh khỏe mạnh; và bảo vệ hàng
+                                    rào da đầu.</p>
+                                <p><a class="btn btn-lg btn-1" href="#">MUA NGAY</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Banner2.jpg" alt="">
+                        <div class="container col-md-12">
+                            <div class="carousel-caption text-start text-banner2 col-md-4 p-3">
+                                <h1>Chăm sóc tóc có thể gây ra các vấn đề về da.</h1>
+                                <p>Đó là lý do tại sao bác sĩ da liễu được đào tạo tại Harvard, Tiến sĩ Iris Dang đã
+                                    phát triển SEEN. Các công thức được cấp bằng sáng chế, từng đoạt giải thưởng của
+                                    chúng tôi sẽ không làm tắc nghẽn lỗ chân lông hoặc gây kích ứng da, giúp tóc và da
+                                    của bạn phát triển tốt.</p>
+                                <p><a class="btn btn-lg btn-2" href="#">BÁN CHẠY NHẤT</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo heading -->
+    <section>
+        <div class="logo-hd">
+            <div class="container">
+                <div class="heading1">
+                    <p>THƯƠNG HIỆU ĐỐI TÁC</p>
+                </div>
+                <div class="logo-th d-flex">
+                    <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_12_2x_3c760404-2616-421a-945c-773d98b2a135_400x.png?v=1667405379"
+                        alt="">
+                    <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_13_2x_e91832a9-2713-4691-bb0a-21e8ba2c9ead_400x.png?v=1667405379"
+                        alt="">
+                    <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_17_2x_35b43a7b-4ccc-4fd3-bd1c-1fc2cb07fbf0_400x.png?v=1667405371"
+                        alt="">
+                    <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_15_2x_ea3d0af4-1fa6-4758-9ce2-be8e35351a26_400x.png?v=1667405379"
+                        alt="">
+                    <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_16_2x_767b816b-44ee-4e21-add4-842221c156f3_400x.png?v=1667405379"
+                        alt="">
+                    <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/Artboard_1_copy_14_2x_72b6b964-d509-42b0-8113-0ed79c889b28_400x.png?v=1667405379"
+                        alt="">
+                    <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/byrdie_2x_b5b2ec48-77a6-4d94-9ed0-86af2e059f48_400x.png?v=1671134897"
+                        alt="">
+                    <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/grooming_2x_3bbd9937-b75d-4da5-8c2e-a0a9bc775b3b_400x.png?v=1671132900"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- San Pham -->
+    <section>
+        <div class="sanpham">
+            <div class="container">
+                <div class="title-sp">
+                    <p>Yêu Thích Nhất</p>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/sp1.jpg" alt="">
+                            <div class="card-body">
+                                <div class="textsp">
+                                    <h class="ttsp">Gói SEEN Essentinal, không mùi</h>
+                                    <div class="card-text">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star2.svg" alt="">
+                                        370 đánh giá
+                                    </div>
+                                    <small class="text-muted">1.200.000 đ</small>
+                                </div>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm">MUA NGAY</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/sp4.png" alt="">
+                            <div class="card-body">
+                                <div class="textsp">
+                                    <h class="ttsp">Gói thiết yếu SEEN ss1</h>
+                                    <div class="card-text">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star1.svg" alt="">
+                                        181 đánh giá
+                                    </div>
+                                    <small class="text-muted">1.050.000 đ</small>
+                                </div>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm">MUA NGAY</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/products/MagicSerum_Box_29656b7a-cd55-4d22-94ce-4aa0450e4830.jpg?v=1643169659&width=640"
+                                alt="">
+                            <div class="card-body">
+                                <div class="textsp">
+                                    <h class="ttsp">SEEN Magic Serum, không mùi</h>
+                                    <div class="card-text">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star2.svg" alt="">
+                                        <img src="images/star1.svg" alt="">
+                                        190 đánh giá
+                                    </div>
+                                    <small class="text-muted">820.000 đ</small>
+                                </div>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm">MUA NGAY</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="xemthem">
+                    <button type="button" class="btn btn-sm">XEM THÊM</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chuyen muc lien quan den cua hang(slide text) -->
+    <section>
+        <div class="slide-chuyenmuc">
+            <marquee behavior="" direction="">
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl">CHO MỌI LOẠI TÓC</h>
+                <h class="tsl"> AN TOÀN CHO DA NHẠY CẢM</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl"> BÁC SĨ DA LIỄU THIẾT KẾ</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl">CHO MỌI LOẠI TÓC</h>
+                <h class="tsl"> AN TOÀN CHO DA NHẠY CẢM</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl"> BÁC SĨ DA LIỄU THIẾT KẾ</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl">CHO MỌI LOẠI TÓC</h>
+                <h class="tsl"> AN TOÀN CHO DA NHẠY CẢM</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl"> BÁC SĨ DA LIỄU THIẾT KẾ</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl">CHO MỌI LOẠI TÓC</h>
+                <h class="tsl"> AN TOÀN CHO DA NHẠY CẢM</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl"> BÁC SĨ DA LIỄU THIẾT KẾ</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl">CHO MỌI LOẠI TÓC</h>
+                <h class="tsl"> AN TOÀN CHO DA NHẠY CẢM</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl"> BÁC SĨ DA LIỄU THIẾT KẾ</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl">CHO MỌI LOẠI TÓC</h>
+                <h class="tsl"> AN TOÀN CHO DA NHẠY CẢM</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl"> BÁC SĨ DA LIỄU THIẾT KẾ</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl">CHO MỌI LOẠI TÓC</h>
+                <h class="tsl"> AN TOÀN CHO DA NHẠY CẢM</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl"> BÁC SĨ DA LIỄU THIẾT KẾ</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl">CHO MỌI LOẠI TÓC</h>
+                <h class="tsl"> AN TOÀN CHO DA NHẠY CẢM</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl"> BÁC SĨ DA LIỄU THIẾT KẾ</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl">CHO MỌI LOẠI TÓC</h>
+                <h class="tsl"> AN TOÀN CHO DA NHẠY CẢM</h>
+                <h class="tsl"> GIẢI THƯỞNG</h>
+                <h class="tsl"> BÁC SĨ DA LIỄU THIẾT KẾ</h>
+            </marquee>
+        </div>
+    </section>
+
+    <!-- Chuoi cua hang -->
+    <section>
+        <div class="cuahang">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/ch1.jpg" alt="">
+                            <div class="card-body">
+                                <div class="textch">
+                                    <h class="tch1">CỬA HÀNG</h>
+                                    <h class="tch2">nước hoa miễn phí</h>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/ch2.webp" alt="">
+                            <div class="card-body">
+                                <div class="textch">
+                                    <h class="tch1">CỬA HÀNG</h>
+                                    <h class="tch2">sản phẩm kiểu tóc</h>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/ch3.jpg" alt="">
+                            <div class="card-body">
+                                <div class="textch">
+                                    <h class="tch1">CỬA HÀNG</h>
+                                    <h class="tch2">serum kỳ diệu</h>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video ve cua hang -->
+    <section>
+        <div class="video">
+            <div class="container">
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/oZoVX2dur0Q" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nha thiet ket-lam danh gia -->
+    <section>
+        <div class="ntk">
+            <div class="container col-xxl-12">
+                <div class="row flex-lg-row-reverse align-items-center ">
+                    <div class="card img-ntk col-12 col-lg-6 ">
+                        <img src="images/daidien.jpg" class="mx-lg-auto" alt="Bootstrap Themes" loading="lazy">
+                    </div>
+                    <div class="text-ntk col-lg-6">
+                        <div class="txt1">TÌM CHẾ ĐỘ CỦA BẠN</div>
+                        <div class="txt2">Làm Bài Kiểm Tra Của SEEN</div>
+                        <p class="lead">Hãy để tiến sĩ Iris Dang hướng dẫn bạn tìm ra chế độ tốt nhất cho nhu cầu riêng
+                            của bạn.</p>
+                        <!-- <div class="gr-btn"> -->
+                        <button type="button" class="btn">LÀM BÀI KIỂM TRA CỦA CHÚNG TÔI</button>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Anh quan ba ve su khac biet   -->
+    <section>
+        <div class="skb">
+            <div class="container ">
+                <div class="title-skb">
+                    <h>SEEN khác biệt như thế nào</h>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                    <div class="col d-flex">
+                        <div class="card-skb">
+                            <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_129_3x_307b4c3d-b189-4079-88c0-82d9fc702094_180x.png?v=1643236995"
+                                alt="">
+                            <p>Được thiết kế bởi một bác sĩ da liễu được đào tạo tại Harvard</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex">
+                        <div class="card-skb">
+                            <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_130_3x_da76afdc-448e-4190-bc98-bf76cdc7240e_180x.png?v=1643237011"
+                                alt="">
+                            <p>Không gây mụn. Không làm tắc nghẽn lỗ chân lông</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex ">
+                        <div class="card-skb">
+                            <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_131_3x_fdb891df-d556-4096-a3a2-b08c5d65a3e5_180x.png?v=1643237024"
+                                alt="">
+                            <p>Không chứa sunfat, silicon, phthalates, parben và thuốc nhuộm</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex ">
+                        <div class="card-skb">
+                            <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_132_3x_93cdfa1c-bc6c-462e-b3a5-a9e043fda2b7_180x.png?v=1643237035"
+                                alt="">
+                            <p>Được chứng minh lâm sàng là không gây kích ứng</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex ">
+                        <div class="card-skb">
+                            <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_31_copy_6_3x_37e52d98-2c1d-4af5-b881-881eaabb461c_180x.png?v=1643237056"
+                                alt="">
+                            <p>Tùy chọn không mùi</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex ">
+                        <div class="card-skb">
+                            <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_32_copy_6_3x_6757afd7-7a5c-4823-bd8e-01f2f0078282_180x.png?v=1643237069"
+                                alt="">
+                            <p>An toàn cho tóc đã qua xử lý màu</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex ">
+                        <div class="card-skb">
+                            <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_33_copy_6_3x_619884ee-055c-4183-bda7-a47c63a3f568_100x.png?v=1643237081"
+                                alt="">
+                            <p>Không chứa gluten</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex">
+                        <div class="card-skb">
+                            <img src="https://cdn.shopify.com/s/files/1/0016/5144/1717/files/newArtboard_34_copy_6_3x_c7a21321-e7de-491d-bd88-4f8f26b4bccd_100x.png?v=1643237096"
+                                alt="">
+                            <p>Thuần chay và không độc ác <br> (không thử nghiệm trên động vật)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner2 -->
+    <section>
+        <div class="banner2">
+            <div class="container">
+                <div class="text-bn2">
+                    <div class="h-1 ">Tốt hơn cho bạn. Tốt hơn cho cộng đồng của chúng ta.</div>
+                    <p>Chúng tôi là một thương hiệu hướng đến sứ mệnh, cam kết giúp bạn cảm thấy được nhìn thấy chính
+                        mình (do đó là tên thương hiệu của chúng tôi) và tăng cường tác động tích cực mà chúng tôi có
+                        đối với mọi người và cộng đồng.</p>
+                    <button type="button" class="btn">HÀNH TRÌNH PHÁT TRIỂN BỀN VỮNG CỦA CHÚNG TÔI</button>
+                </div>
+                <div class="img">
+                    <img src="images/globe-center.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bai danh gia -->
+    <section>
+        <div class="danhgia">
+            <div class="ttl container">
+                ĐỪNG TIN LỜI CHÚNG TÔI
+            </div>
+
+            <div id="carouselExampleInterval" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="txt container">
+                            <div class="sao">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                            </div>
+                            <div class="txt-dg">
+                                <h3>Cuối cùng!!! Ngoc Thanh!!</h3> <br>
+                                <p>“Đã hai tháng trôi qua và tôi chi mới gần dùng xong những chai đầu tiên. Tôi nói
+                                    những chai đầu tiên vì đây sẽ là chai đầu tiên trong số hàng trăm chai mà tôi sẽ mua
+                                    trong suốt cuộc đời minh! Đây là loại dầu gội và dầu xả tốt nhất mà tôi từng có đã
+                                    tìm thấy <br> <br>
+                                    Không có mùi thơm hay không... da nhạy cảm hay không... tóc của tôi chưa bao giờ
+                                    trông đẹp như thế này với bất kỳ loại dầu gội nào khác. BAO GIỜ. Vì vậy, thực tế là
+                                    tôi có thể nhận được những kết quả này mà không gặp vấn đề về ngừa da đầu, gàu, mùi
+                                    hoặc hóa chất gây kích ứng làn da của tôi, thật kỳ diệu!!!... Không cần phải nói tôi
+                                    là một người cắm trại hạnh phúc! <br> <br>
+                                    – Ê-li-sa-bét. Khách hàng đã xác minh</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class=" txt container">
+                            <div class="sao">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                            </div>
+                            <div class="txt-dg">
+                                <h3>Cuối cùng!!! Ngoc Thanh!!</h3> <br>
+                                <p>“Đã hai tháng trôi qua và tôi chi mới gần dùng xong những chai đầu tiên. Tôi nói
+                                    những chai đầu tiên vì đây sẽ là chai đầu tiên trong số hàng trăm chai mà tôi sẽ mua
+                                    trong suốt cuộc đời minh! Đây là loại dầu gội và dầu xả tốt nhất mà tôi từng có đã
+                                    tìm thấy <br> <br>
+                                    Không có mùi thơm hay không... da nhạy cảm hay không... tóc của tôi chưa bao giờ
+                                    trông đẹp như thế này với bất kỳ loại dầu gội nào khác. BAO GIỜ. Vì vậy, thực tế là
+                                    tôi có thể nhận được những kết quả này mà không gặp vấn đề về ngừa da đầu, gàu, mùi
+                                    hoặc hóa chất gây kích ứng làn da của tôi, thật kỳ diệu!!!... Không cần phải nói tôi
+                                    là một người cắm trại hạnh phúc! <br> <br>
+                                    – Ê-li-sa-bét. Khách hàng đã xác minh</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="txt container">
+                            <div class="sao">
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                                <ion-icon name="star"></ion-icon>
+                            </div>
+                            <div class="txt-dg">
+                                <h3>Cuối cùng!!! Ngoc Thanh!!</h3> <br>
+                                <p>“Đã hai tháng trôi qua và tôi chi mới gần dùng xong những chai đầu tiên. Tôi nói
+                                    những chai đầu tiên vì đây sẽ là chai đầu tiên trong số hàng trăm chai mà tôi sẽ mua
+                                    trong suốt cuộc đời minh! Đây là loại dầu gội và dầu xả tốt nhất mà tôi từng có đã
+                                    tìm thấy <br> <br>
+                                    Không có mùi thơm hay không... da nhạy cảm hay không... tóc của tôi chưa bao giờ
+                                    trông đẹp như thế này với bất kỳ loại dầu gội nào khác. BAO GIỜ. Vì vậy, thực tế là
+                                    tôi có thể nhận được những kết quả này mà không gặp vấn đề về ngừa da đầu, gàu, mùi
+                                    hoặc hóa chất gây kích ứng làn da của tôi, thật kỳ diệu!!!... Không cần phải nói tôi
+                                    là một người cắm trại hạnh phúc! <br> <br>
+                                    – Ê-li-sa-bét. Khách hàng đã xác minh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="btn-dg">
+                <button type="button" class="btn">KHÁM PHÁ CÁC BÀI ĐÁNH GIÁ</button>
+            </div>
+        </div>
+
+
+        <div class="baiviet">
+            <div class="container">
+                <div class="row" data-masonry='{"percentPosition": true }'>
+                    <div class="the1 col-lg-7 p-2">
+                        <div class="bv3 d-flex">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">NGÀY 8 THÁNG 2 NĂM 2023</small></p>
+                                <h5 class="card-title">Sản phẩm vượt trội?</h5>
+                                <p class="card-text">Mùa hè có nghĩa là ra ngoài trời và tận hưởng thời tiết, nhưng
+                                    mùa
+                                    này có thể gây căng thẳng cho tóc vì tiếp xúc nhiều hơn với tia UV, ô nhiễm,
+                                    nước
+                                    mặn và clo không có lợi cho tóc.</p>
+                                <button type="button" class="btn">ĐỌC THÊM</button>
+                            </div>
+                            <img src="images/ch1.jpg" alt="">
+                        </div>
+                        <div class="bv3 d-flex">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">NGÀY 8 THÁNG 2 NĂM 2023</small></p>
+                                <h5 class="card-title">Chúng tôi muốn những thứ tốt nhất cho bạn</h5>
+                                <p class="card-text">Mùa hè có nghĩa là ra ngoài trời và tận hưởng thời tiết, nhưng
+                                    mùa
+                                    này có thể gây căng thẳng cho tóc vì tiếp xúc nhiều hơn với tia UV, ô nhiễm,
+                                    nước
+                                    mặn và clo không có lợi cho tóc.</p>
+                                <button type="button" class="btn">ĐỌC THÊM</button>
+                            </div>
+                            <img src="images/ch2.webp" alt="">
+                        </div>
+                        <div class="bv3 d-flex">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">NGÀY 8 THÁNG 2 NĂM 2023</small></p>
+                                <h5 class="card-title">Siêu phục cho da dầu nhạy cảm</h5>
+                                <p class="card-text">Mùa hè có nghĩa là ra ngoài trời và tận hưởng thời tiết, nhưng
+                                    mùa
+                                    này có thể gây căng thẳng cho tóc vì tiếp xúc nhiều hơn với tia UV, ô nhiễm,
+                                    nước
+                                    mặn và clo không có lợi cho tóc.</p>
+                                <button type="button" class="btn">ĐỌC THÊM</button>
+                            </div>
+                            <img src="images/ch3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="the2 col-lg-5 p-2">
+                        <div class="card">
+                            <img src="images/baiviet2.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">NGÀY 8 THÁNG 2 NĂM 2023</small></p>
+                                <h5 class="card-title">Thật sự hiệu quả với tóc xơ rối</h5>
+                                <p class="card-text">Mùa hè có nghĩa là ra ngoài trời và tận hưởng thời tiết, nhưng mùa
+                                    này có thể gây căng thẳng cho tóc vì tiếp xúc nhiều hơn với tia UV, ô nhiễm, nước
+                                    mặn và clo không có lợi cho tóc.</p>
+                                <button type="button" class="btn">ĐỌC THÊM</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- email -->
+
+
+
+    <footer class="text-center">
+        <div class="kt">
+            <div>
+                <div class="email">
+                    <div class="container">
+                        <div class="textt">
+                            <h>Hãy để chúng tôi được chăm sóc bạn!!!</h>
+                            <p>Nhận thông tin mới nhất về tất cả những điều tuyệt vời về mái tóc, làn da tuyệt vời và sự
+                                tự tin
+                                đi kèm với chúng. Cộng với cung cấp và công cụ mới, tất nhiên.</p>
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Nhập email của bạn </label>
+                            </div>
+                            <button type="button" class="btn">Liên hệ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container p-4">
+                <div class="logo-end">
+                    <img src="images/seen-logo.svg" alt="">
+
+                </div>
+                <div class="logo1 mb-4">
+                    <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="fb"><ion-icon
+                                name="logo-facebook"></ion-icon></i></a>
+                    <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="istg"><ion-icon
+                                name="logo-instagram"></ion-icon></i></a>
+                    <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button"><i class="tt"><ion-icon
+                                name="logo-tiktok"></ion-icon></i></a>
+                </div>
+                <div class="lk-1">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="">Cửa hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="">Phần thưởng</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="">Cho 25$ nhận 100$</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="">câu hỏi thường gặp</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="">Thành phần</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="">Trả lại</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="">Liên hệ chúng tôi</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="">Khoa học</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="">Câu chuyện của chúng ta</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="">Sự bền vững</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="">SEEN mua bán</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="">Chương trình lấy mẫu SEEN</a>
+                            </ul>
+                        </div>
+                        <div class="lk-2 row">
+                            <div class="col-lg-4 col-md-8 col-sm-12 d-flex">
+                                <a href="">Điều khoản</a>
+                                <a href="">Quyền riêng tư</a>
+                                <a href="">Bằng sáng chế</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 SEEN:
+                <a class="text-white" href="https://helloseen.com/index.html">Helloseen.com</a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

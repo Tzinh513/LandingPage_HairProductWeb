@@ -1,0 +1,558 @@
+/* 
+@font-face {
+    font-family: 'Futura PT', sans-serif;
+    src: url("../fonts/Futura PT Medium/@font-face/3c6b0199ae7b57966132e83c939d77e2.eot");
+    src: url("../fonts/Futura PT Medium/@font-face/3c6b0199ae7b57966132e83c939d77e2.svg");
+    src: url("../fonts/Futura PT Medium/@font-face/3c6b0199ae7b57966132e83c939d77e2.ttf");
+    src: url("../fonts/Futura PT Medium/@font-face/3c6b0199ae7b57966132e83c939d77e2.woff");
+    src: url("../fonts/Futura PT Medium/@font-face/3c6b0199ae7b57966132e83c939d77e2.woff2");
+
+} */
+
+
+
+/* Header-------------------------------------- */
+
+header {
+    border-bottom: rgb(44, 44, 44) solid 1px;
+    background-color: white;
+}
+
+.header1 {
+    text-align: center;
+}
+
+.header1>a {
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+
+}
+
+.logo {
+    text-align: center;
+    /* justify-content: center;
+    align-items: center;
+    vertical-align: auto; */
+    padding-top: 9px;
+}
+
+.logo>img {
+    height: 37px;
+    width: 150px;
+}
+
+header .icons {
+    margin-top: 15px;
+}
+
+header .icons img {
+    width: 25px;
+    /* color: rgb(139, 141, 142); */
+    /* margin-top: 20%; */
+    /* padding-top: 6px; */
+    margin: auto;
+}
+
+
+
+/* Baner---------------------------------------- */
+
+.banner {
+    margin-top: 6.5rem;
+    border-bottom: rgb(44, 44, 44) solid 1px;
+    height: 45rem;
+}
+
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 7rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.banner .carousel-item {
+    height: 45rem;
+    border-bottom: rgb(44, 44, 44) solid 1px;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+}
+
+.text-banner1 {
+    color: black;
+}
+
+.btn-1 {
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 0 0 0 0;
+    font-size: 15px;
+}
+
+.btn-1:hover {
+    color: rgb(255, 255, 255);
+}
+
+.btn-2 {
+    width: 200px;
+    color: black;
+    background-color: white;
+    border-radius: 0 0 0 0;
+    font-size: 15px;
+}
+
+/* heading_1------------------------------------------- */
+.logo-hd {
+    border-bottom: rgb(44, 44, 44) solid 1px;
+    padding: 20px;
+}
+
+.heading1 {
+    text-align: center;
+}
+
+.logo-th {
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.logo-th::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+
+.logo-th>img {
+    width: 160px;
+    height: 100%;
+}
+
+
+/* San pham-------------------------------------------- */
+.sanpham {
+    padding: 50px;
+    border-bottom: rgb(44, 44, 44) solid 1px;
+
+}
+
+.title-sp {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.card {
+    text-align: center;
+    border: 0px;
+}
+
+
+.sanpham .card .textsp {
+    font-size: 1.3rem;
+}
+
+.sanpham .card .card-text {
+    margin-top: 3px;
+    font-size: 0.9rem;
+}
+
+.sanpham .card .card-text>img {
+    width: 25px;
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+.btn-group {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 0 0;
+    width: 40%;
+
+}
+
+.btn-group>button {
+    border-radius: 0 0 0 0;
+}
+
+.btn-group:hover {
+    background-color: black;
+}
+
+.btn-group>button:hover {
+    color: white;
+}
+
+.xemthem {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.xemthem>button {
+    border: 2px solid black;
+    border-radius: 0;
+    width: 12rem;
+    height: 2.5rem;
+    letter-spacing: 3px;
+}
+
+.xemthem>button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* slide text------------------------------------------------- */
+
+.slide-chuyenmuc {
+    margin-top: 17px;
+    padding-bottom: 10px;
+    border-bottom: rgb(44, 44, 44) solid 1px;
+
+}
+
+.slide-chuyenmuc .tsl {
+    margin-left: 3%;
+    margin-right: 3%;
+    letter-spacing: 4px;
+    color: rgb(69, 54, 30);
+}
+
+/* cua hang-------------------------------------------------- */
+
+.cuahang {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: rgb(44, 44, 44) solid 1px;
+}
+
+.cuahang .card img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.cuahang .textch:hover {
+    cursor: pointer;
+}
+
+.cuahang .tch1 {
+    color: #D3946F;
+    font-weight: 600;
+    font-size: 16px;
+    word-spacing: 3px;
+
+}
+
+.cuahang .tch2 {
+    margin-left: 5px;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.cuahang .col {
+    margin-bottom: 10px;
+}
+
+
+/* Video=-------------------------------------- */
+
+.video {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: rgb(44, 44, 44) solid 1px;
+}
+
+.video iframe {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    height: calc(.5625 * 87vw);
+    max-width: 1280px;
+    max-height: 720px;
+}
+
+
+
+/* Nha thiet ket-lam danh gia---------------------------- */
+
+.ntk {
+    border-bottom: rgb(44, 44, 44) solid 1px;
+
+}
+
+.ntk img {
+    width: 100%;
+    height: 100%;
+}
+
+.ntk .img-ntk {
+    border-left: rgb(44, 44, 44) solid 1px;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ntk .text-ntk {
+    text-align: center;
+}
+
+.ntk .txt1 {
+    font-size: 15px;
+    color: #D3946F;
+
+}
+
+.ntk .txt2 {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ntk .lead {
+    font-size: 16px;
+}
+
+.ntk .text-ntk>button {
+    width: 300px;
+    border-radius: 0;
+    border: 2px solid black;
+    margin-top: 15px;
+    /* padding: 20px; */
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.ntk .text-ntk>button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/*     <!--Anh quan ba ve su khac biet ----------------------  --> */
+
+.skb {
+    border-bottom: rgb(44, 44, 44) solid 1px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skb .title-skb {
+    font-size: 25px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.skb .col {
+    text-align: center;
+}
+
+.skb .card-skb {
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+.skb .card-skb>img {
+    width: 92px;
+    height: 117px;
+}
+
+/* banner2----------------------------------------------------- */
+
+.banner2 {
+    border-bottom: rgb(44, 44, 44) solid 1px;
+    background-color: #003058;
+    color: white;
+    text-align: center;
+}
+
+.banner2 .text-bn2 {
+    margin: auto;
+    width: 60%;
+}
+
+.banner2 .img img {
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    object-position: -20% 0;
+    margin-top: -20px;
+}
+
+.banner2 .h-1 {
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-size: 35px;
+
+}
+
+.banner2 .text-bn2>button {
+    border: white solid 2px;
+    color: white;
+    height: 80px;
+    width: 280px;
+    margin-top: 20px;
+}
+
+/* Bai danh gia-------------------------------------------- */
+
+.danhgia {
+    /* border-bottom: rgb(44, 44, 44) solid 1px; */
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.danhgia .ttl {
+    text-align: center;
+}
+
+.danhgia .carousel {
+    height: 400px;
+    margin-bottom: 15px;
+}
+.danhgia .carousel-item{
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+
+.danhgia .txt {
+    margin-top: 40px;
+    width: 70%;
+    /* background-color: aqua; */
+    border-radius: 0;
+    border-top: #D3946F solid 1px;
+
+}
+
+.danhgia .sao {
+    margin-top: 30px;
+}
+
+.danhgia .sao>ion-icon {
+    color: #D3946F;
+    font-size: 20px;
+}
+
+.danhgia .txt-dg{
+    display:-webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.danhgia .btn-dg {
+    text-align: center;
+    /* background-color: #D3946F; */
+}
+
+.danhgia .btn-dg>button {
+    border: black solid 2px;
+    border-radius: 0;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.danhgia .btn-dg>button:hover {
+    background-color: black;
+    color: white;
+}
+/* bai viet========== */
+
+.baiviet{
+    padding-bottom: 50px;
+    border-bottom: rgb(44, 44, 44) solid 1px;
+}
+
+.baiviet .card >img{
+    cursor: pointer;
+}
+
+.baiviet .the2 .card-body{
+    text-align: start;
+}
+.baiviet .the2 .card-body .card-text{
+    font-size: 15px;
+    letter-spacing: 1px; 
+}
+.baiviet .the2 .card-body .card-title{
+    font-size: 25px;
+}
+.baiviet .card-body>button{
+    text-decoration-line: underline;
+}
+
+.baiviet .the1 .bv3 img{
+    width: 200px;
+    object-fit: cover;
+} 
+.baiviet .the1 .bv3{
+    margin-top: 20px;
+}
+.baiviet .the1 {
+    border-top: black solid 2px;
+}
+
+/* email-------------------------------------------- */
+
+.email{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.email .textt{
+    margin: auto;
+    margin-top: 70px;
+    width: 50%;
+}
+.email .textt>h{
+    font-size: 30px;
+    font-weight: 600;
+}
+.email .textt .form-floating{
+    width: 80%;
+    margin: auto;
+}
+.email .textt>button{
+    background-color: #efdbba;
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+/* footer----------------------------------------------- */
+
+.kt{
+    font-size: 15px;
+}
+.kt .logo-end img{
+    width: 100px;
+    float: left;
+}
+.kt .lk-1 .list-unstyled {
+    text-align: start;
+    color: black;
+}
+.kt .lk-1 .list-unstyled a{
+    text-decoration: none;
+    color: black;
+}
+.kt .lk-2 {
+    margin-top: 20px;
+}
+.kt .lk-2 a{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
